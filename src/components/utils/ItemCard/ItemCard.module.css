@@ -1,0 +1,37 @@
+.itemCard {
+  width: 100%;
+  position: relative;
+  margin: 1.5rem 0;
+  padding: 5px;
+  height: 100px;
+  color: #5b5b5b;
+  background: #fff;
+  box-shadow: -5px 5px 5px rgba(0,0,0, 0.15);
+}
+
+.cardName {
+  font: 1.5rem;
+  font-weight: bold;
+}
+
+.icons {
+  position: absolute;
+  bottom: 5px;
+  left:0;
+  color: #808080;
+}
+
+.icons > * {
+  display: inline-block;
+  margin: 5px;
+}
+
+.deadline {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px;
+  border-radius: 25px;
+  font-weight: 1000;
+  color: #FFF;
+}

@@ -1,0 +1,16 @@
+.pipeStage {
+  display: inline-block;
+  margin: 1.5rem;
+  color: #5b5b5b;
+  width: 300px;
+}
+
+.stageHeader {
+  position: relative;
+}
+.icons {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  font-size: 1.5rem;
+}

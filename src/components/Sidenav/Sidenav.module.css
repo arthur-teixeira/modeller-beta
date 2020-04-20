@@ -1,0 +1,38 @@
+.avatar {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+
+.sidenavParent {
+  width: 25%;
+  background: #FFF;
+  height: 100vh;  
+  color: #365DA8;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.username {
+  font-size: 150%;
+}
+
+.companyName {
+  font-size: 75%;
+}
+
+.content {
+  margin: 0.5rem;
+}
+
+.switchCompany {
+  margin: 0.5rem;
+  font-size: 75%;
+}

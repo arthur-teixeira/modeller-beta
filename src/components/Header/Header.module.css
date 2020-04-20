@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  z-index: 10;
+  max-width: 1560px;
+  margin: 0 auto;
+  color: #365DA8;
+}
+
+::placeholder {
+  color: #365DA8;
+}
+
+.headerContainer {
+  width: 100%;
+  background: #365DA8;
+}
+
+.logo {
+  max-width: 150px;
+  margin: 0 16px;
+}
+
+.leftSide {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.searchContainer {
+  display: inline-flex;
+  border-radius: 10px;
+  background: #DAE1EA;
+  margin: 0 16px;
+}
+
+.searchIcon {
+  padding: 0.5rem;
+  box-sizing: content-box;
+}
+
+.searchBox {
+  border: 0;
+  overflow: hidden;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: #DAE1EA;
+}
+
+.rightSide {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.invite {
+  display: flex;
+  align-items: center;
+  background: #DAE1EA;
+  padding: 5px;
+  margin: 0 16px;
+}
+.invite svg {
+  margin-right: 0.5rem;
+}
+
+.notifications {
+  background: #DAE1EA;
+  margin: 0 16px;
+  padding: 3px;
+}
+
+.invite, .notifications {
+  border-radius: 5px;
+}
