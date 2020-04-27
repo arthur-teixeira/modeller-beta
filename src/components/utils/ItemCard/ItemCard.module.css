@@ -9,9 +9,20 @@
   box-shadow: -5px 5px 5px rgba(0,0,0, 0.15);
 }
 
+.itemCard:hover {
+  transition: 0.2s;
+  filter: opacity(0.9);
+  background: #f5f5f5;
+  box-shadow: -5px 5px 5px 5px rgba(0,0,0, 0.15);
+}
+
 .cardName {
-  font: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
+}
+
+.cardDesc, .icons, .deadline {
+  font-size: 0.75rem;
 }
 
 .icons {
@@ -32,6 +43,6 @@
   right: 5px;
   padding: 5px;
   border-radius: 25px;
-  font-weight: 1000;
+  font-weight: bold;
   color: #FFF;
 }

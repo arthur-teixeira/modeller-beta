@@ -1,0 +1,96 @@
+.filterWrapper {
+  width: 100%;
+  background: #FFF;
+  color: #5b5b5b;
+  height: 15vh;
+}
+
+.filterSection > p{
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.tagSection {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.filterSection {
+  display: flex;
+  align-items: center;
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.placeholder, .placeholderFilled {
+  height: 32px;
+  width: 32px;
+  border: 2px solid #DAE1EA;
+  margin: 0 0.5rem;
+}
+
+.placeholderFilled {
+  background: #DAE1EA;
+}
+
+.searchBarWrapper {
+  display: flex;
+  border: 2px solid #DAE1EA;
+  width: 35%;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.searchBar {
+  width: 100%;
+  border: none;
+}
+
+.tagButtons {
+  margin: 0.5rem 0;
+}
+
+.redTagButton, .yellowTagButton, .blueTagButton {
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  border: 2px solid;
+}
+
+.redTagButton {
+  color: #D45974;
+  border-color: #D45974;
+}
+
+.redTagButton:hover, .redTagButton:focus {
+  color: white;
+  background: #D45974;
+  transition: 0.2s;
+}
+
+.yellowTagButton {
+  color: #E8B967;
+  border-color: #E8B967;
+}
+
+.yellowTagButton:hover, .yellowTagButton:focus {
+  color: white;
+  background: #E8B967;
+  transition: 0.2s;
+}
+
+.blueTagButton {
+  color: #7FADE9;
+  border-color: #7FADE9;
+}
+
+.blueTagButton:hover, .blueTagButton:focus {
+  color: white;
+  background: #7FADE9;
+  transition: 0.2s;
+}

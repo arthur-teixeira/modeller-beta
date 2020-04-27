@@ -8,8 +8,9 @@
 }
 
 .pipeCard:hover{
-  transition: 0.5s ease-in-out;
-  color: #365DA8;
+  transition: 0.2s;
+  filter: opacity(0.9);
+  background: #f5f5f5;
   box-shadow: -2px 2px 5px 8px rgba(0,0,0,0.15);
 }
 

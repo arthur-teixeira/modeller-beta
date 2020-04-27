@@ -4,7 +4,7 @@ import styles from './PipeStage.module.css'
 
 import { FiMoreVertical } from 'react-icons/fi'
 
-import { ItemCard } from '../utils'
+import { ItemCard, NewTask } from '../utils'
 
 export default function PipeStage() {
   return (
@@ -20,6 +20,7 @@ export default function PipeStage() {
         <ItemCard color="#D45974" />
         <ItemCard color="#E8B967" />
         <ItemCard />
+        <NewTask />
       </div>
     </div>
   )
