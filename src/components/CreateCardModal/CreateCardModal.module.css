@@ -1,0 +1,47 @@
+.modal {
+  width: 70vh;
+  background: #DAE1EA;
+  padding: 2rem;
+  border-radius: 15px;
+  color: #5b5b5b;
+  height: 580px;
+  position: relative;
+}
+
+.modalHeader {
+  margin-bottom: 1.5rem;
+}
+
+.modalHeader > h2{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.creationDate{
+  display: inline-block;
+}
+
+.modalName {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.modal h2 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.descriptionArea {
+  resize:none;
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.modalActivities {
+  height: 200px;
+  white-space: nowrap;
+  overflow: auto;
+}

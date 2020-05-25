@@ -1,0 +1,44 @@
+.serviceList {
+  height:100%;
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.serviceList > p {
+  text-align: center;
+  color: #707070;
+  margin: 1rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0 auto; 
+}
+
+.serviceBtn {
+  background: #fff;
+  border: 1px solid #707070;
+  color: #707070;
+  border-radius: 15px;
+  width:80%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.serviceBtn:hover {
+  transition: 0.2s;
+  background: #707070;
+  color:white;
+}
+
+.mainBtn {
+  background: #D45974;
+  color: #fff;
+  border-radius: 15px;
+  width: 50%;
+  margin: 1rem auto;
+  display: block;
+  border:none;
+  padding: 0.5rem;
+}

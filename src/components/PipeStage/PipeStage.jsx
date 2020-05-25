@@ -2,11 +2,59 @@ import React from 'react'
 
 import styles from './PipeStage.module.css'
 
-import { FiMoreVertical } from 'react-icons/fi'
+import { FiMoreVertical, FiPlusCircle } from 'react-icons/fi'
 
-import { ItemCard, NewTask } from '../utils'
+import { ItemCard, Toggle, Portal } from '../utils'
+
+import { CreateCard } from '../../Pages'
 
 export default function PipeStage() {
+
+  const placeholderData = [
+    {
+      name: "card name",
+      desc: "card description",
+      deadline: "22/12",
+      comments: 10,
+      indexed: 18,
+      tasks: "7/14",
+      type: "low",
+      key: 1
+    },
+    {
+      name: "card name",
+      desc: "card description",
+      deadline: "22/12",
+      comments: 20,
+      indexed: 14,
+      tasks: "7/14",
+      type: "medium",
+      key: 2
+    },
+    {
+      name: "card name",
+      desc: "card description",
+      deadline: "22/12",
+      comments: 10,
+      indexed: 14,
+      tasks: "7/14",
+      type: "high",
+      key: 3
+    },
+    {
+      name: "card name",
+      desc: "card description",
+      deadline: "22/12",
+      comments: 10,
+      indexed: 14,
+      tasks: "7/14",
+      type: "medium",
+      key: 4
+    },
+  ]
+
+
+
   return (
     <div className={styles.pipeStage}>
       <div className={styles.stageHeader}>
@@ -17,11 +65,19 @@ export default function PipeStage() {
         </div>
       </div>
       <div className={styles.pipes}>
-        <ItemCard color="#D45974" />
-        <ItemCard color="#E8B967" />
-        <ItemCard />
-        <NewTask />
+        {placeholderData.map(item => (
+          <ItemCard key={item.key} data={item} />
+        ))}
       </div>
+      <Toggle render={({ on, toggle }) => (
+        <>
+          {on && <Portal><CreateCard toggleHandler={toggle} on={on} /></Portal>}
+          <div className={styles.newTask} onClick={toggle}>
+            <FiPlusCircle />
+            <p>Nova tarefa</p>
+          </div>
+        </>
+      )} />
     </div>
   )
 }

@@ -3,6 +3,7 @@
   margin: 1.5rem;
   color: #5b5b5b;
   width: 300px;
+  
 }
 
 .stageHeader {
@@ -13,4 +14,20 @@
   top: 25%;
   right: 0;
   font-size: 1.5rem;
+}
+
+.newTask{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.newTask > p {
+  margin-left: 0.25rem;
+}
+.pipes {
+  padding: 0 0.5rem;
+  max-height: 60vh;
+  white-space: nowrap;
+  overflow: auto;
 }
