@@ -68,7 +68,7 @@
   border-color: #D45974;
 }
 
-.redTagButton:hover, .redTagButton:focus {
+.redTagButton:hover{
   color: white;
   background: #D45974;
   transition: 0.2s;
@@ -79,7 +79,7 @@
   border-color: #E8B967;
 }
 
-.yellowTagButton:hover, .yellowTagButton:focus {
+.yellowTagButton:hover{
   color: white;
   background: #E8B967;
   transition: 0.2s;
@@ -90,7 +90,7 @@
   border-color: #7FADE9;
 }
 
-.blueTagButton:hover, .blueTagButton:focus {
+.blueTagButton:hover{
   color: white;
   background: #7FADE9;
   transition: 0.2s;

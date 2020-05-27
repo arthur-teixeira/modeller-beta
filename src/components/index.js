@@ -6,7 +6,7 @@ import FilterSection from './FilterSection/FilterSection'
 import CreateCardModal from './CreateCardModal/CreateCardModal'
 import CardOptionsModal from './CardOptionsModal/CardOptionsModal'
 import WelcomeModal from './WelcomeModal/WelcomeModal'
-import PipeContext from './PipeContext/PipeContext'
+import { PipeContext, PipeContextProvider } from './PipeContext/PipeContext'
 
 export {
   Header,
@@ -17,5 +17,6 @@ export {
   CreateCardModal,
   CardOptionsModal,
   WelcomeModal,
-  PipeContext
+  PipeContext,
+  PipeContextProvider
 }

@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 import styles from './PipeStage.module.css'
 
 import { FiMoreVertical, FiPlusCircle } from 'react-icons/fi'
 
 import { ItemCard, Toggle, Portal } from '../utils'
+
+import { PipeContext } from '../'
 
 import { CreateCard } from '../../Pages'
 
@@ -53,6 +55,13 @@ export default function PipeStage() {
     },
   ]
 
+  const filter = useContext(PipeContext)[0]
+
+
+  let filteredData = placeholderData.filter(card => {
+    if (filter) return card.type === filter
+    else return card
+  })
 
 
   return (
@@ -65,7 +74,7 @@ export default function PipeStage() {
         </div>
       </div>
       <div className={styles.pipes}>
-        {placeholderData.map(item => (
+        {filteredData.map(item => (
           <ItemCard key={item.key} data={item} />
         ))}
       </div>
