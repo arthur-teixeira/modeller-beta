@@ -55,13 +55,17 @@ export default function PipeStage() {
     },
   ]
 
-  const filter = useContext(PipeContext)[0]
+  const filters = useContext(PipeContext)[0]
 
+  const filterData = () => {
+    const data = [...placeholderData]
+    if (filters.length === 0) {
+      return data
+    }
+    return filters.map(currentFilter => data.filter(card => card.type === currentFilter)).flat()
+  }
 
-  let filteredData = placeholderData.filter(card => {
-    if (filter) return card.type === filter
-    else return card
-  })
+  const filteredData = filterData()
 
 
   return (

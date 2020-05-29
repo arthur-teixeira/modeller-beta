@@ -8,11 +8,17 @@ import { PipeContext } from '../'
 
 export default function FilterSection() {
 
-  const [filter, setActiveFilter] = useContext(PipeContext)
+  const [filters, setActiveFilter] = useContext(PipeContext)
 
   const setFilterHandler = (filterValue) => {
-    if (filter === filterValue) return setActiveFilter("")
-    else return setActiveFilter(filterValue)
+    const array = [...filters]
+    if (array.includes(filterValue)) {
+      array.splice(array.indexOf(filterValue), 1)
+      setActiveFilter(array)
+    }
+    else {
+      setActiveFilter([...array, filterValue])
+    }
   }
 
   return (
