@@ -1,7 +1,8 @@
 .btn:hover {
   color: white;
-  background: #365DA8;
-  transition: 0.5s ;
+  background: #D45794;
+  border: 2px solid transparent;
+  transition: 0.2s ;
 }
 
 .btn {
@@ -10,7 +11,8 @@
   padding: 0.5rem;
   color: #365DA8;
   background: white;
-  border: 1px solid #365DA8;
+  border: 2px solid #365DA8;
+  font-weight: 800;
   margin: 0.5rem;
   width: 10vw;
 }

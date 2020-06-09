@@ -5,7 +5,7 @@ import styles from './CardOptionsModal.module.css'
 import { Button } from '../utils'
 
 const CustomButton = ({ children }) => {
-  return <Button customStyles={{ width: "100%", margin: "0.5rem auto", fontWeight: "bold" }}>{children}</Button>
+  return <Button customStyles={{ width: "100%", margin: "0.5rem auto" }}>{children}</Button>
 }
 
 export default function CardOptionsModal() {
@@ -14,7 +14,7 @@ export default function CardOptionsModal() {
       <div className={styles.modalWrapper}>
         <header className={styles.modalHeader}>
           <h2>Lista:</h2>
-          <h1>Etapa 01</h1>
+          <h1 className={styles.stage}>Etapa 01</h1>
         </header>
         <section className={styles.addToCard}>
           <h2>Adicionar ao card:</h2>

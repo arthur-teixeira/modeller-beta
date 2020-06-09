@@ -5,48 +5,40 @@
   z-index: 10;
   max-width: 1560px;
   margin: 0 auto;
-  color: #365DA8;
+  color: #FFF;
   height: 7vh;
-}
-
-::placeholder {
-  color: #365DA8;
 }
 
 .headerContainer {
   width: 100%;
-  background: #365DA8;
+  background: #1E3560;
 }
 
 .logo {
   max-width: 150px;
   margin: 0 16px;
+  display: block;
+}
+
+.logoContainer{
+  font-size: .75rem;
+  display: inline-block;
+  text-align: center;
+  margin: .5rem;
+}
+
+.projectName {
+  color: white;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 .leftSide {
-  width: 50%;
   display: flex;
   align-items: center;
-}
-
-.searchContainer {
-  display: inline-flex;
-  border-radius: 10px;
-  background: #DAE1EA;
-  margin: 0 16px;
-}
-
-.searchIcon {
-  padding: 0.5rem;
-  box-sizing: content-box;
-}
-
-.searchBox {
-  border: 0;
-  overflow: hidden;
-  padding: 0.5rem;
-  border-radius: 10px;
-  background: #DAE1EA;
+  justify-content: flex-start;
 }
 
 .rightSide {
@@ -59,20 +51,27 @@
 .invite {
   display: flex;
   align-items: center;
-  background: #DAE1EA;
-  padding: 5px;
-  margin: 0 16px;
+  background: #E8B967;
+  padding: .5rem;
+  font-weight: bold;
+  font-size: .75rem;
+  margin: .2rem;
 }
 .invite svg {
   margin-right: 0.5rem;
 }
 
 .notifications {
-  background: #DAE1EA;
-  margin: 0 16px;
-  padding: 3px;
+  background: #D45794;
+  padding: .4rem .6rem;
+  margin: .2rem;
+}
+.history {
+  background: #365DA8;
+  padding: .4rem .6rem;
+  margin: .2rem;
 }
 
-.invite, .notifications {
+.invite, .notifications, .history {
   border-radius: 5px;
 }

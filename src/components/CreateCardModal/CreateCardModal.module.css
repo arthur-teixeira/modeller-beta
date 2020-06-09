@@ -1,9 +1,9 @@
 .modal {
-  width: 70vh;
-  background: #DAE1EA;
+  max-width: 700px;
+  background: #365DA8;
+  color: white;
   padding: 2rem;
-  border-radius: 15px;
-  color: #5b5b5b;
+  border-radius: 5px;
   height: 580px;
   position: relative;
 }
@@ -29,6 +29,26 @@
 .modal h2 {
   font-size: 1rem;
   margin: 0.5rem 0;
+  color: #7FADE9;
+}
+
+.addAdmin {
+  display: flex;
+  justify-content: flex-start;
+  color: #3d3d3d;
+  width: 20%;
+  padding: .5rem;
+}
+
+.addAdmin > p {
+  background : #FFF;
+  padding: 0.2rem;
+  font-size: 0.75rem;
+}
+
+.addAdmin > div {
+  background: #D45974;
+  padding: 0.2rem;
 }
 
 .descriptionArea {

@@ -24,20 +24,42 @@
   padding: 0.5rem;
 }
 
-.placeholder, .placeholderFilled {
-  height: 32px;
-  width: 32px;
-  border: 2px solid #DAE1EA;
-  margin: 0 0.5rem;
+.filterIcons {
+  display: flex;
 }
 
-.placeholderFilled {
-  background: #DAE1EA;
+.filterIcons > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: .5rem;
+  font-size: .5rem;
+  cursor:pointer;
+}
+
+
+.filterSwitch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width:100%;
+}
+
+.filterSwitch > p {
+  margin: 0 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.filterOn {
+  color: #1E3560;
+}
+.filterOff {
+  color: #808080;
 }
 
 .searchBarWrapper {
   display: flex;
-  border: 2px solid #DAE1EA;
   width: 35%;
   padding: 0.5rem;
   margin: 0 0.5rem;

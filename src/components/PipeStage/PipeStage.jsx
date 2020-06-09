@@ -42,17 +42,7 @@ export default function PipeStage() {
       tasks: "7/14",
       type: "high",
       key: 3
-    },
-    {
-      name: "card name",
-      desc: "card description",
-      deadline: "22/12",
-      comments: 10,
-      indexed: 14,
-      tasks: "7/14",
-      type: "medium",
-      key: 4
-    },
+    }
   ]
 
   const filters = useContext(PipeContext)[0]
@@ -86,8 +76,8 @@ export default function PipeStage() {
         <>
           {on && <Portal><CreateCard toggleHandler={toggle} on={on} /></Portal>}
           <div className={styles.newTask} onClick={toggle}>
-            <FiPlusCircle />
-            <p>Nova tarefa</p>
+            <FiPlusCircle size={24} />
+            <p className={styles.bold}>Nova tarefa</p>
           </div>
         </>
       )} />

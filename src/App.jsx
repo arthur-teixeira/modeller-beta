@@ -8,8 +8,8 @@ function App() {
     <PipeContextProvider>
       {/* <WelcomeModal /> */}
       <Header />
-      {/* <Dashboard /> */}
-      <Pipe />
+      <Dashboard />
+      {/* <Pipe /> */}
     </PipeContextProvider>
   );
 }

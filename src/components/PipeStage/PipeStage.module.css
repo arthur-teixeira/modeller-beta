@@ -2,12 +2,13 @@
   display: inline-block;
   margin: 1.5rem;
   color: #5b5b5b;
-  width: 300px;
+  width: 325px;
   
 }
 
 .stageHeader {
   position: relative;
+  font-size: .75rem;
 }
 .icons {
   position: absolute;
@@ -30,4 +31,8 @@
   max-height: 60vh;
   white-space: nowrap;
   overflow: auto;
+}
+
+.bold { 
+  font-weight: bold;
 }

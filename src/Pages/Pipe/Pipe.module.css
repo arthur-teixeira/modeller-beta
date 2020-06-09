@@ -1,4 +1,6 @@
 .pipe {
+  max-width: 1560px;
+  margin: 0 auto;
   height: 78vh;
   white-space: nowrap;
   overflow: auto;
