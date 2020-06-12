@@ -1,5 +1,6 @@
 import Button from './Button/Button'
 import PipeCard from './PipeCard/PipeCard'
+import NewPipeCard from './NewPipeCard/NewPipeCard'
 import ItemCard from './ItemCard/ItemCard'
 import Toggle from './Toggle/Toggle'
 import ModalActivity from './ModalActivity/ModalActivity'
@@ -13,5 +14,6 @@ export {
   Toggle,
   ModalActivity,
   Portal,
-  Heading
+  Heading,
+  NewPipeCard
 }

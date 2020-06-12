@@ -1,9 +1,21 @@
 .cardGrid {
-  width: 75%;
-  padding: 0 10rem;
+  width: 60%;
+  margin: 5rem;
 }
 
 .gridWrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filters {
+  display: flex;
+  align-items: center;
 }

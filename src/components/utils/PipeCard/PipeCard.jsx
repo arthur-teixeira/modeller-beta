@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 import styles from './PipeCard.module.css'
 
-import { FiMoreVertical } from 'react-icons/fi'
 import { IoIosStarOutline, IoIosStar } from 'react-icons/io'
 
 export default function PipeCard() {
@@ -14,11 +13,10 @@ export default function PipeCard() {
 
   return (
     <div className={styles.pipeCard}>
-      <FiMoreVertical size={16} className={styles.more} />
       {
         isStarFilled ?
-          <IoIosStar onClick={HandleStarFill} size={16} className={styles.star} /> :
-          <IoIosStarOutline onClick={HandleStarFill} size={16} className={styles.star} />
+          <IoIosStar onClick={HandleStarFill} size={24} className={styles.star} /> :
+          <IoIosStarOutline onClick={HandleStarFill} size={24} className={styles.star} />
       }
       <div className={styles.icon}>
         <p>Ícone</p>

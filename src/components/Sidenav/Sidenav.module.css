@@ -2,11 +2,12 @@
   max-width: 150px;
   height: auto;
   display: block;
-  margin-top: 2rem;
+  margin: 2rem 0;
   border-radius: 50%;
 }
 
 .sidenavParent {
+  position: relative;
   width: 25%;
   background: #FFF;
   height: 100%;
@@ -17,21 +18,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .username {
-  font-size: 150%;
+  font-size: 1.5rem;
 }
 
 .companyName {
-  font-size: 75%;
-}
-
-.content {
-  margin: 0.5rem;
+  color: #808080;
+  font-weight: bold;
 }
 
 .switchCompany {
-  margin: 0.5rem;
-  font-size: 75%;
+  font-size: .75rem;
+  color: #808080;
+  font-weight: bold;
+}
+
+.buttons > button {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons > button > svg {
+  margin-right: 0.5rem;
+}
+
+.editIcon {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
 }

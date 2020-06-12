@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Header, PipeContextProvider } from './components'
 import { Dashboard, Pipe, WelcomeModal } from './Pages'
 import './App.css'

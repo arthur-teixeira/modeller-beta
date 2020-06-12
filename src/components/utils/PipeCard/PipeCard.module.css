@@ -4,6 +4,8 @@
   position: relative;
   border-radius: 5px;
   margin: 2rem;
+  width: 90%;
+  height:200px;
   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.15);
 }
 
@@ -14,23 +16,16 @@
   box-shadow: -2px 2px 5px 8px rgba(0,0,0,0.15);
 }
 
-.more {
-  position: absolute;
-  right: 0.5rem;
-  top: 0.5rem;
-  margin: 0.5rem;
-}
-
 .star {
   position: absolute;
-  right: 0.5rem;
-  bottom: 0.5rem;
-  margin: 0.5rem;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
 }
 
 .icon {
   width: 25%;
-  margin: 0.5rem auto;
+  margin: 5vh auto;
   padding: 20px 0;
   background: #365DA8;
   border-radius: 5px;
@@ -42,6 +37,14 @@
 
 .projectName {
   font-weight: bold;
+  font-size: 1.5rem;
+}
+.cardContent { 
+  position: absolute;
+  color: #505050;
+  margin: 1rem;
+  bottom: 0;
+  left: 0;
 }
 
 .cardAmount {
