@@ -1,4 +1,5 @@
 import Header from './Header/Header'
+import HeaderWithSearchbar from './Header/HeaderWithSearchbar/Header'
 import CardGrid from './CardGrid/CardGrid'
 import Sidenav from './Sidenav/Sidenav'
 import PipeStage from './PipeStage/PipeStage'
@@ -10,6 +11,7 @@ import { PipeContext, PipeContextProvider } from './PipeContext/PipeContext'
 
 export {
   Header,
+  HeaderWithSearchbar,
   Sidenav,
   CardGrid,
   PipeStage,

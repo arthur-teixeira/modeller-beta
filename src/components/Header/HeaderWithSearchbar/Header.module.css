@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  max-width: 1560px;
+  margin: 0 auto;
+  color: #FFF;
+  height: 7vh;
+}
+
+.headerContainer {
+  width: 100%;
+  background: #1E3560;
+}
+
+.logo {
+  width: 150px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.center {
+  margin: 0 auto;
+  flex: 2;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.input {
+  width: 100%;
+  border:none;
+  background: transparent;
+}
+
+.inputIcon {
+  color: #505050;
+  margin: 0;
+}
+
+.inputContainer {
+  padding: .5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+
+.invite {
+  display: flex;
+  align-items: center;
+  background: #E8B967;
+  padding: .5rem;
+  font-weight: bold;
+  font-size: .75rem;
+  margin: .2rem;
+}
+.invite svg {
+  margin-right: 0.5rem;
+}
+
+.notifications {
+  background: #D45794;
+  padding: .4rem .6rem;
+  margin: .2rem;
+}
+
+.invite, .notifications {
+  border-radius: 5px;
+}

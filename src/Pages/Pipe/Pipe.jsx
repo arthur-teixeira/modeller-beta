@@ -1,11 +1,12 @@
 import React from 'react'
 
-import { PipeStage, FilterSection } from '../../components/'
+import { PipeStage, FilterSection, Header } from '../../components/'
 import styles from './Pipe.module.css'
 
 export default function Pipe() {
   return (
     <>
+      <Header />
       <FilterSection />
       <div className={styles.pipe}>
         <PipeStage />

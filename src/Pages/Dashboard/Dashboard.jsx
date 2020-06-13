@@ -1,14 +1,17 @@
 import React from 'react'
 
-import { Sidenav, CardGrid } from '../../components'
+import { Sidenav, CardGrid, HeaderWithSearchbar } from '../../components'
 
 import styles from './Dashboard.module.css'
 
 export default function Dashboard() {
   return (
-    <div className={styles.dashboardContainer}>
-      <Sidenav />
-      <CardGrid />
-    </div>
+    <>
+      <HeaderWithSearchbar />
+      <div className={styles.dashboardContainer}>
+        <Sidenav />
+        <CardGrid />
+      </div>
+    </>
   )
 }
